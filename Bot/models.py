@@ -19,6 +19,7 @@ class Orders(models.Model):
     stopLoss = models.CharField(max_length=50, null=True, blank=True)
     reduceOnly = models.CharField(max_length=50, null=True, blank=True)
     botOrderType = models.CharField(max_length=50, null=True, blank=True)
+
     # price = models.DecimalField(max_digits=10, decimal_places=8, null=True, blank=True)
     # market_position = models.CharField(max_length=50, null=True, blank=True)
     # position_size = models.DecimalField(max_digits=10, decimal_places=8, null=True, blank=True)
